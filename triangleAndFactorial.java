@@ -46,6 +46,7 @@ public class triangleAndFactorial {
 
         System.out.println("n! = " + res1 + ", n! рекурсивно = " + res2);
         System.out.printf("n-triangle рекурсивно =  %d , n-triangle math = %d\n", res3, res4);
+        console.close();
     }
 
 }
