@@ -15,7 +15,7 @@ public class primeNumbers {
         return true;
     }
 
-    static void primeNumbers(int n) {
+    static void primeNumbersOf(int n) {
         for (int i = 2; i < n; i++) {
             if (isPrime(i)) {
                 System.out.printf("%d ", i);
@@ -27,6 +27,7 @@ public class primeNumbers {
         Scanner console = new Scanner(System.in);
         System.out.print("Enter an integer: ");
         int num = console.nextInt();
-        primeNumbers(num);
+        primeNumbersOf(num);
+        console.close();
     }
 }
