@@ -16,6 +16,7 @@ public class view {
             num = console.nextInt();
         } else {
             System.out.println("Неверное число. Попробуйте ущё раз:");
+            console.next();
             num = inView();
         }
         return num;
