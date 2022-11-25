@@ -1,7 +1,5 @@
 package calculator;
 
-/* import calculator.view;
-import calculator.calc; */
 
 public class controller {
     static void control() {
@@ -16,12 +14,17 @@ public class controller {
             case "-":
                 res = calc.sub();
                 break;
+            case "*":
+                res = calc.mult();
+                break;
+            case "/":
+                res =calc.div();
+                break;
+
             default:
                 res = 0.0;
                 break;
-
-        }
-        
+        }  
         view.outView(res);
     }
 }
