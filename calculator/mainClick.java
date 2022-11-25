@@ -1,3 +1,5 @@
+/* Реализовать простой калькулятор */
+
 package calculator;
 
 public class mainClick {
