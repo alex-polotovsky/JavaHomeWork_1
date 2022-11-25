@@ -28,7 +28,6 @@ public class view {
 
         if (s.equals("+") || s.equals("-") || s.equals("*") || s.equals("/")) {
             operator = s;
-            System.out.println(operator);
         } else{
             System.out.println("Оператор не распознан. Попробуйте ещё раз.");
             operator = operatorView();
